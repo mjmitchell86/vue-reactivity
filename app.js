@@ -1,4 +1,4 @@
-import { reactive, effect } from '@vue/reactivity';
+const { reactive, effect } = require('@vue/reactivity');
 var counter = reactive({
     num: 0
 });
